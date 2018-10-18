@@ -1,5 +1,6 @@
-// define variable for ball count paragraph
+
 window.onload = init;
+alert('Use WASD to controll the ball');
 var para = document.querySelector('p');
 var count = 0;
 para.textContent = '';
@@ -18,7 +19,6 @@ function playSound() {
   sound.play();
 }
 
-// setup canvas
 
 var canvas = document.querySelector('canvas');
 var ctx = canvas.getContext('2d');
@@ -207,7 +207,7 @@ function loop() {
   ctx.fillStyle = 'rgba(0,0,0,0.25)';
   ctx.fillRect(0,0,width,height);
 
-  while(balls.length < 20) {
+  while(balls.length < 15) {
     var size = random(10,20);
     var ball = new Ball(
       // ball position always drawn at least one ball width
