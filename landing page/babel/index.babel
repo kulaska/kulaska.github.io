@@ -1,4 +1,4 @@
-let ready = () => {
+
 var slideIndex = 0;
 showSlides();
 
@@ -19,7 +19,7 @@ function showSlides() {
     setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
-let btn = document.getElementById("burger-menu");
+let btn = document.getElementById("nav-bar");
 let hdr = document.getElementById("header");
 let show = () => {  
   if (btn.style.display == "block") {
@@ -46,8 +46,6 @@ let hide = () => {
     hdr.style.height = "70px";
   } 
 }
-}
-
 
 
 

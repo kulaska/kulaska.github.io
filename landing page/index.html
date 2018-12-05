@@ -1,29 +1,44 @@
-﻿<html>
+<!DOCTYPE html>
+<html lang="en" >
+
 <head>
-  <title>Bubagift landing page</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">  
-  <script src="main.js"></script>
-<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACiVcx4HVDGd8AAAAXAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL7n+/8d5IP/XiCz/3ZA3/9GBJf+XUAD/lFAB/5RQAf+UUAH/ADdXMgAAAAAAAAAAAAAAAAAAAADRgST/0YEk/y+5/v/HeSD/14gs/92QN//XiCz/tmMC/5RQAf+qYAv/qmAL/wCByv+UUAH/lFAB/wAAAAAAAAAA0YEk/9GBJP8vuf7/x3kg/9eILP/dkDf/3I40/7ZjAv+2YwL/qmAL/6pgC/8Agcr/sWAC/5RQAf8AAAAAAAAAANGBJP/RgST/L7n+/8d5IP/XiCz/3ZA3/+KWPv+2YwL/tmMC/6pgC/+qYAv/AIHK/7FgAv+UUAH/AAAAAAAAAADRgST/x3kg/y+5/v/HeSD/14gs/92QN//nnEX/tmMC/7ZjAv+qYAv/qmAL/wCByv+xYAL/lFAB/wAAAAAAAAAA0YEk/8d5IP8vuf7/x3kg/9eILP/nnEX/66JN/7ZjAv+2YwL/qmAL/6pgC/8Agcr/sWAC/5RQAf8AAAAAAAAAANGBJP/HeSD/L7n+/8d5IP/XiCz/66JN//S3cf+2YwL/tmMC/6pgC/+qYAv/AIHK/7FgAv+UUAH/AAAAAAAAAADRgST/0YEk/y+5/v/HeSD/14gs/+uiTf/5wYD/y24D/7ZjAv+qYAv/qmAL/wCByv+xYAL/lFAB/wAAAAAAAAAA0YEk/9GBJP8vuf7/x3kg/9eILP/7xYf9/cJ+//nAf/rioFT7qmAL/6pgC/8Agcr/sWAC/5RQAf8AAAAAAAAAANGBJP/RgST/L7n+/y+5/v8vuf7/L7n+/y9SZf8vuf7/L7n+/y+5/v8vuf7/L7n+/7FgAv+UUAH/AAAAAAAAAAAAAAAA0YEk/+qmV//ioFT74qBU++KgVPsEUZX/4qBU++KgVPvioFT74qBU++KgVPuUUAH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL7n+/wxPjP8vuf7/AFuP/y+5/v8ccKD/E26m/yN5s/8AID8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+5/v8vuf7/5fT7/wBztP8vuf7/L7n+/wpVjf9ZpNP9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL7n+/y+5/v8KhMn/BFGM/+v3++ovuf7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADUNPFgpWkP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/n8AAOAPAACAAQAAgAEAAIABAACAAQAAgAEAAIABAACAAQAAgAEAAIABAADAAwAA8A8AAPAPAAD4HwAA/38AAA==" rel="icon" type="image/x-icon" />
+  <meta charset="UTF-8">
+  <title>FCC LANDING PAGE</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
 </head>
+
+<body>
+
+  <head>
+  
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+</head>
+
 <header id="header">
   <div class="logo-wrapper">
    
-    <a href="#"><img class="logo" src="https://i.ibb.co/Ntf0Syy/logo-transparent.png"></a>
+    <a href="#" onclick="hide()"><img class="logo" id="header-img" src="https://i.ibb.co/Ntf0Syy/logo-transparent.png"></a>
     <h2>Gifts for everyone</h2>
     
   </div>
   <button id="burger" onclick="show()">Menu</button>
-  <nav class="topnav" id="burger-menu">
+  <nav class="topnav" id="nav-bar">
     
     <ul class="topmenu">
-      <a href="#adv" onclick="hide()"><li>Lorem</li></a>
-      <a href="#vd" onclick="hide()"><li>Ipsum</li></a>
-      <a href="#imp" onclick="hide()"><li>Dolor</li></a>
-      <a href="#cntc" onclick="hide()"><li>Sit amet</li></a>
+      <a href="#adv" onclick="hide()" class="nav-link"><li>Lorem</li></a>
+      <a href="#vd" onclick="hide()" class="nav-link"><li>Ipsum</li></a>
+      <a href="#imp" onclick="hide()" class="nav-link"><li>Dolor</li></a>
+      <a href="#cntc" onclick="hide()" class="nav-link"><li>Sit amet</li></a>
     </ul>
   </nav>
 </header>
-<body onresize="check()" onload="ready()">
+<body onresize="check()">
 <div id="body">
   <section id="slider">
     <div class="slideshow-container">
@@ -90,10 +105,10 @@
    </div>
 </div>
 </section>
-<section id="video">
+<section id="videosct">
   <h2 class="section-name" id="vd">How to choose an appropriate gift</h2>
   <div class="row video">
-  <iframe src="https://www.youtube.com/embed/T1vepF8Zeys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe id="video" src="https://www.youtube.com/embed/T1vepF8Zeys" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </section>
   
 <section id="importance">
@@ -111,9 +126,10 @@
   <h2 class="section-name" id="cntc">Contact us</h2>
   <h3>Enter your email</h3>
   <div>
-    <form>
-      <input></input>
-      <button>Submit</button>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" type="email" placeholder="Enter your email, please"></input>
+      <!--<button id="submit">Submit</button>-->
+    <input id="submit" type="submit" value="Submit" class="button"></input>
     </form>
   </div>
 </section>
@@ -133,4 +149,14 @@
   </div>
 </section>
 </body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
 </html>

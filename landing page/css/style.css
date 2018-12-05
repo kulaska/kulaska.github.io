@@ -129,7 +129,7 @@ a {
   margin: 15px;
 }
 
-#contact button {
+#contact .button {
   background: #CFBBEA;
   padding: 10px;
   border-radius: 10px;
@@ -356,3 +356,4 @@ margin:-90px 0 0; /* negative fixed header height */
     flex-wrap: wrap;
   }
 }
+
