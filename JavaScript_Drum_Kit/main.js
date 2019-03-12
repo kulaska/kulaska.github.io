@@ -1,24 +1,21 @@
-var down = false;
+window.onload = () => {function removeTransition(e) {
+    if (e.propertyName !== 'transform') return;
+    e.target.classList.remove('playing');
+  }
 
-const keys = [65, 83, 68, 70, 71, 72, 74, 75, 76];
-const sources = ['boom', 'clap', 'hihat', 'kick', 'openhat', 'ride', 'snare', 'tink', 'tom'];
-       
-document.addEventListener('keydown', evt => {
-    if (down) return;
-    down = true;        
-    for (let i = 0; i < keys.length; i++) {
-        let str = `[data-key="${keys[i]}"]`;            
-        if (evt.which == keys[i]) {               
-            document.querySelector(str).classList.add('playing');            
-            let audio = new Audio('sounds/' + sources[i] + '.wav');
-            audio.play();            
-        };
-        setTimeout(() => {
-            document.querySelector(str).classList.remove('playing');
-            down = false;
-        }, 100)
-    }       
-});    
+  function playSound(e) {
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    const key = document.querySelector(`div[data-key="${e.keyCode}"]`);
+    if (!audio) return;
 
+    key.classList.add('playing');
+    audio.currentTime = 0;
+    audio.play();
+  }
+
+  const keys = Array.from(document.querySelectorAll('.key'));
+  keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+  window.addEventListener('keydown', playSound);
+}
 
 
