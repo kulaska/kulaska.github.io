@@ -16,7 +16,7 @@ document.addEventListener('keydown', evt => {
         setTimeout(() => {
             document.querySelector(str).classList.remove('playing');
             down = false;
-        }, 50)
+        }, 100)
     }       
 });    
 
