@@ -1,0 +1,289 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    font-family: Ubuntu, Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+main {
+    max-width: 1320px;
+    height: 100%;      
+    margin: auto;
+    font-family: Ubuntu     
+}
+
+main > * {
+    color: rgba(38,48,58,255);
+}
+
+section {
+    margin-bottom:60px;
+}
+
+.nav-li {
+    color: white;
+    text-decoration: none
+}
+
+button {
+    height: 50px;
+    background: none;
+    margin: 0px 10px;
+    border: 2px solid #74c793;
+    border-radius: 25px;
+    padding: 0 50px;    
+    font-family: Ubuntu;
+    font-size: 16px;
+}
+
+#entry > * button {
+    color: white;
+}
+
+#entry {
+    color: white; 
+    height: 100vh;        
+}
+
+.logo {
+    margin-right: auto;
+    align-self: flex-end;
+}
+
+.intro-header {    
+    align-self: flex-start;    
+    padding: 40px;
+    padding-right: 0;    
+    display: flex;
+    justify-content: flex-end;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 12.5px;
+    max-width: 1320px;
+    margin:auto;
+    height: 30px;
+}
+
+.intro-nav {
+    list-style-type: none;
+    display: flex; 
+    margin-left: auto;
+    padding: 0   
+}
+
+.intro-nav li {
+    display: inline;
+    padding: 0 25px
+}
+
+#intro {
+    height: 100%;       
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    font-family: Ubuntu; 
+}
+
+.intro-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.intro-desc {    
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 25px;  
+    font-family: Ubuntu-Light 
+}
+
+.intro-h {    
+    font-size: 50px;
+    margin: 25px;
+    font-family: Ubuntu-Bold;    
+}
+
+.intro-desc, .intro-h {
+    flex: 0 0 100%;
+}
+
+.intro-buttons {
+    margin: 35px
+}
+
+#buy {
+    background: #74c793;    
+}
+
+.wallpaper {
+    background-image: url("wallpaper.png");    
+    width: 100%;    
+    background-repeat: no-repeat;
+    background-size: cover;     
+  }
+  
+.main-header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(38,48,58,255);
+    margin: 50px;
+}
+
+.main-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center
+}
+
+.main-projects-ex {
+    width: 409px;
+    height: 383px;
+    margin: 10px;
+    background: #e9eef2;
+    transition: background-color 1s;
+}
+
+.main-projects-ex:hover {    
+    background-color: #74c793;
+    background-image: url('eye.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.main-see-all {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;    
+    margin-bottom: 100px
+}
+
+.main-see-all > button {
+    font-size: 18px;
+    font-family: Ubuntu
+}
+
+main #about {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 130px;
+}
+
+.main-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 22px
+}
+
+.main-advantages-row {
+    flex: 0 0 100%;
+    display: flex;
+    margin-bottom: 160px;
+    justify-content: center;
+    text-align: right;
+}
+
+.main-advantages-image {
+    flex: 0 0 250px;
+    display: flex;
+}
+
+.main-advantages-image {
+    justify-content: center;
+    align-items: center
+}
+
+.main-advantages-text {
+    align-self: center;
+    flex: 0 1 520px;
+      
+}
+
+.main-advantages-list {
+    list-style-image: url(v.png);    
+    margin: 0;
+    
+}
+
+.main-advantages-list li {    
+    padding: 25px 0px 25px 20px;    
+}
+
+.main-advantages-list li:last-child {
+    padding-bottom: 0px
+}
+
+.list-item {
+    position: relative;
+    bottom: 5px;
+}
+
+.right {
+    text-align: left;
+}
+
+.far, .fas {
+    font-size: 7em;
+    text-align: center
+}
+
+#contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px; 
+    margin: auto
+}
+
+label {
+    width: 100% ;
+}
+
+#contact-input {
+    flex: 1 1 100%;
+    height: 50px;
+    width: 100%; 
+    box-sizing: border-box;
+    margin-bottom: 15px;    
+}
+
+#contact-text {
+    resize: none;
+    width: 100%;
+    margin-bottom: 15px; 
+    
+}
+
+#contact-text, #contact-input {
+    background: #f5f8fa;
+    border: 0;
+    font-size:22px
+}
+
+#contact-submit {
+    margin-left: auto;
+    margin-right: 0;
+    background: #74c793;
+    color: white;
+    font-size: 18px;
+}
+
+#footer {
+    text-align: center;
+    color: #cdcfd1;
+    font-size: 14px;
+}
+
+#footer a {
+    color: #cdcfd1
+}
