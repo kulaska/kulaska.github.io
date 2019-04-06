@@ -24,6 +24,10 @@ section {
     margin-bottom:60px;
 }
 
+#entry {
+    margin-bottom: 60px;
+}
+
 .nav-li {
     color: white;
     text-decoration: none
@@ -166,7 +170,7 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 50px;    
-    margin-bottom: 100px
+    margin-bottom: 160px
 }
 
 .main-see-all > button {
@@ -177,7 +181,7 @@ button {
 main #about {
     text-align: center;
     font-size: 21px;
-    margin-bottom: 130px;
+    margin-bottom: 210px;
 }
 
 .main-advantages {
@@ -286,4 +290,8 @@ label {
 
 #footer a {
     color: #cdcfd1
+}
+
+#contact-us {
+    margin-bottom: 160px
 }
