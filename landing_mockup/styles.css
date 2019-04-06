@@ -204,6 +204,10 @@ main #about {
     margin-bottom: 210px;
 }
 
+#about > p {
+    margin: 21px 10px;
+}
+
 .main-advantages {
     display: flex;
     flex-wrap: wrap;
