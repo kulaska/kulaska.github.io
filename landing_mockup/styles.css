@@ -39,10 +39,22 @@ button {
     margin: 0px 10px;
     border: 2px solid #74c793;
     border-radius: 25px;
-    padding: 0 50px;    
+    padding: 0 35px;    
     font-family: Ubuntu;
     font-size: 16px;
-    outline: none
+    outline: none;    
+    transition: padding 0.4s ease-in-out;
+}
+
+button:focus {
+    outline: none;
+    -webkit-box-shadow: inset 0px 0px 10px #74c793;
+     -moz-box-shadow: inset 0px 0px 10px #74c793;
+          box-shadow: inset 0px 0px 10px #74c793;
+}
+
+button:hover {
+    padding: 10px 50px;
 }
 
 #entry > * button {
@@ -125,7 +137,14 @@ button {
 }
 
 #buy {
-    background: #74c793;    
+    background: #74c793; 
+    
+}
+
+#buy:focus,  #contact-submit:focus {
+    -webkit-box-shadow: inset 0px 0px 10px white;
+     -moz-box-shadow: inset 0px 0px 10px white;
+          box-shadow: inset 0px 0px 10px white;          
 }
 
 .wallpaper {
