@@ -136,7 +136,7 @@ header > p {
     flex-direction: column;
 }
 
-@media screen and (max-width: 620px) {
+@media all and (max-width: 620px) {
     
     .meme-form > input {
         flex: 0 0 100%;
