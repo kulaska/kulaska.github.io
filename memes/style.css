@@ -120,14 +120,14 @@ header > p {
 
 .meme-generator {
     flex: 0 1 800px;
-    height: calc(100vh - 100px);
+    height: calc(100% - 100px);
 }
 
 .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    height: 100%;
 }
 
 .meme-generator-div {
