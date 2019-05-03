@@ -154,4 +154,7 @@ header > p {
         text-align: center;
         flex-grow: 1;
     }
+    .meme-generator-div {
+        height: auto;
+    }
 }
