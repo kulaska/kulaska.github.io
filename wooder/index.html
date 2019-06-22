@@ -353,7 +353,7 @@
                 let fired = false;
                 let frame = (pos) => {
                     return () => {                                                       
-                        if (pos == 0) clearInterval(id);
+                        if (pos == 0) clearInterval();
                         else {
                             pos--;
                             window.scrollBy(0, 5);
