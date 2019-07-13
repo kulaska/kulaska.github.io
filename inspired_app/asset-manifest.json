@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd5095a2.chunk.css",
+    "main.js": "/static/js/main.c8509d7c.chunk.js",
+    "main.js.map": "/static/js/main.c8509d7c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.2fc94d6a.chunk.js": "/static/js/2.2fc94d6a.chunk.js",
+    "static/js/2.2fc94d6a.chunk.js.map": "/static/js/2.2fc94d6a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cad98201bdf57f5f60044737c484b6ef.js": "/precache-manifest.cad98201bdf57f5f60044737c484b6ef.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dd5095a2.chunk.css.map": "/static/css/main.dd5095a2.chunk.css.map",
+    "static/media/churchill_thumb.jpg": "/static/media/churchill_thumb.a590c128.jpg",
+    "static/media/edison_thumb.png": "/static/media/edison_thumb.eb142266.png",
+    "static/media/elon_thumb.jpg": "/static/media/elon_thumb.052688d8.jpg",
+    "static/media/ferguson_thumb.jpg": "/static/media/ferguson_thumb.fb25e799.jpg",
+    "static/media/gates_thumb.jpg": "/static/media/gates_thumb.096b8de2.jpg",
+    "static/media/lincoln_thumb.jpg": "/static/media/lincoln_thumb.238ac244.jpg",
+    "static/media/lombardi_thumb.jpg": "/static/media/lombardi_thumb.e5faf592.jpg",
+    "static/media/muhammad_thumb.jpg": "/static/media/muhammad_thumb.22c68586.jpg",
+    "static/media/ronaldo_thumb.jpg": "/static/media/ronaldo_thumb.617b7272.jpg"
+  }
+}
